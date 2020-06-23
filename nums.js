@@ -14,7 +14,7 @@ function maxCount(arr) {
 
     var maxNum = 0;
     var maxkey = newarr[0];
-    //比较出出现最多的元素与下标次数
+    //比较出出现最多的元素与当前下标
     for (var newarrkey in newarr) {
         if (newarr[newarrkey] > maxNum) {
             maxNum = newarr[newarrkey];
